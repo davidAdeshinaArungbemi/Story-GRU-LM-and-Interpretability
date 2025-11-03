@@ -416,13 +416,6 @@ Generating 20 samples...
 - **Hugging Face**: For the Tokenizers library
 - **Community**: For inspiration and feedback
 
----
-
-## 📧 Contact
-
-Have questions or suggestions? Feel free to:
-
-- Open an issue on GitHub
 
 ---
 
