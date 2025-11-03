@@ -15,33 +15,33 @@ _A lightweight, creative language model for generating children's stories_
 
 ---
 
-## 🎭 About
+## About
 
 This project explores **computational creativity** through story generation. Built with a passion for understanding how machines can learn to express themselves, this GRU-based language model demonstrates that meaningful creative output doesn't always require massive transformer architectures.
 
 ### Why This Project?
 
-- **💡 Creative Expression**: Exploring how neural networks can capture narrative structure and generate coherent stories
-- **🎯 Efficiency**: Proving that smaller, recurrent architectures can still produce engaging content
-- **🧠 Learning**: Deep dive into language modeling, tokenization, and text generation techniques
-- **🎨 Accessibility**: Making creative AI tools available without requiring enormous computational resources
+- **Creative Expression**: Exploring how neural networks can capture narrative structure and generate coherent stories
+- **Efficiency**: Proving that smaller, recurrent architectures can still produce engaging content
+- **Learning**: Deep dive into language modeling, tokenization, and text generation techniques
+- **Accessibility**: Making creative AI tools available without requiring enormous computational resources
 
 The model was trained on the [TinyStories dataset](https://huggingface.co/datasets/roneneldan/TinyStories), a collection of simple children's stories, to learn narrative structure, character development, and story arcs.
 
 ---
 
-## ✨ Features
+## Features
 
-- **🚀 Lightweight Architecture**: Only 93.88MB - perfect for deployment and experimentation
-- **⚡ Fast Generation**: GRU-based architecture enables quick inference
-- **🎛️ Controllable Output**: Adjust temperature, top-k, and top-p sampling for varied creativity
-- **🔧 Easy to Use**: Simple Python API for generation
-- **🌐 Multi-Device Support**: Automatically detects and uses TPU/GPU/CPU
-- **📝 Post-Processing**: Built-in cleanup for common tokenization artifacts
+- **Lightweight Architecture**: Only 93.88MB - perfect for deployment and experimentation
+- **Fast Generation**: GRU-based architecture enables quick inference
+- **Controllable Output**: Adjust temperature, top-k, and top-p sampling for varied creativity
+- **Easy to Use**: Simple Python API for generation
+- **Multi-Device Support**: Automatically detects and uses TPU/GPU/CPU
+- **Post-Processing**: Built-in cleanup for common tokenization artifacts
 
 ---
 
-## 📊 Model Architecture
+## Model Architecture
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -68,7 +68,7 @@ The model was trained on the [TinyStories dataset](https://huggingface.co/datase
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Basic Generation
 
@@ -158,7 +158,7 @@ generator.interactive()
 
 The same prompt at different temperatures shows the trade-off between coherence and creativity:
 
-#### 🧊 Temperature 0.5 (Conservative)
+#### Temperature 0.5 (Conservative)
 
 <details>
 <summary>Click to expand</summary>
@@ -182,7 +182,7 @@ sound. I like the sound of the ball...
 
 </details>
 
-#### 🌡️ Temperature 0.8 (Balanced)
+#### Temperature 0.8 (Balanced)
 
 <details>
 <summary>Click to expand</summary>
@@ -205,7 +205,7 @@ I want to eat some grass. Mimi sees a big apple and wants to eat it...
 
 </details>
 
-#### 🔥 Temperature 1.5 (Creative)
+#### Temperature 1.5 (Creative)
 
 <details>
 <summary>Click to expand</summary>
@@ -241,7 +241,7 @@ Repetition patterns vary significantly with temperature:
 
 ---
 
-## 🏋️ Training
+## Training
 
 ### Training Your Own Model
 
@@ -343,7 +343,7 @@ config.custom_text_file = "data/extra_stories.txt"
 
 ---
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Quality Metrics
 
@@ -407,25 +407,9 @@ Generating 20 samples...
 
 ## ![alt text](5_generation_diversity.png)
 
-## 🤝 Contributing
-
-Contributions are welcome! Here are some ways you can help:
-
-- 🐛 Report bugs or issues
-- 💡 Suggest new features
-- 📝 Improve documentation
-- 🧪 Share interesting generation examples
-- 🔧 Submit pull requests
-
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **TinyStories Dataset**: [Ronen Eldan & Yuanzhi Li](https://huggingface.co/datasets/roneneldan/TinyStories)
 - **PyTorch**: For the excellent deep learning framework
@@ -439,12 +423,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Have questions or suggestions? Feel free to:
 
 - Open an issue on GitHub
-
----
-
-## 🌟 Star History
-
-If you find this project interesting or useful, please consider giving it a star! ⭐
 
 ---
 
